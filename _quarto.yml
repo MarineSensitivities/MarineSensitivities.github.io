@@ -1,12 +1,22 @@
 project:
   type: website
 
+execute:
+  echo: false
+  warning: false
+  message: false
+
 website:
   title: "MarineSensitivities.org"
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - regions.qmd
+      - distributions.qmd
+      - sensitivities.qmd
+
+    right:
       - about.qmd
 
 format:
