@@ -1,5 +1,7 @@
 ---
 title: "Regions"
+editor_options: 
+  chunk_output_type: console
 ---
 
 For now this site is focused on U.S. BOEM planning areas.
@@ -8,6 +10,9 @@ For now this site is focused on U.S. BOEM planning areas.
 librarian::shelf(
   leaflet, MarineSensitivities/msens,
   quiet = T)
+# renv::dependencies() 
+library(leaflet); library(msens) # renv::install("MarineSensitivities/msens")
+# renv::snapshot()
 
 pal <- colorFactor("Spectral", ply_rgns_s05$rgn_key)
 
