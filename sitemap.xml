@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://marinesensitivities.org/regions.html</loc>
+    <lastmod>2023-10-25T22:17:51.422Z</lastmod>
+  </url>
+  <url>
     <loc>https://marinesensitivities.org/index.html</loc>
-    <lastmod>2023-10-24T15:38:16.391Z</lastmod>
+    <lastmod>2023-10-25T22:17:44.364Z</lastmod>
+  </url>
+  <url>
+    <loc>https://marinesensitivities.org/sensitivities.html</loc>
+    <lastmod>2023-10-25T22:17:39.539Z</lastmod>
+  </url>
+  <url>
+    <loc>https://marinesensitivities.org/distributions.html</loc>
+    <lastmod>2023-10-25T22:17:40.456Z</lastmod>
   </url>
   <url>
     <loc>https://marinesensitivities.org/about.html</loc>
-    <lastmod>2023-10-24T15:38:14.179Z</lastmod>
+    <lastmod>2023-10-25T22:17:44.730Z</lastmod>
   </url>
 </urlset>
