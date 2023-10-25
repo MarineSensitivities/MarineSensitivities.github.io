@@ -17,8 +17,8 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Install spatial dependencies
-        run: brew install gdal proj
+      # - name: Install spatial dependencies
+      #   run: brew install gdal proj
 
       - name: Install R
         uses: r-lib/actions/setup-r@v2

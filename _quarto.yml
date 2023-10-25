@@ -8,6 +8,14 @@ execute:
 
 website:
   title: "MarineSensitivities.org"
+  google-analytics: "G-9HW6L751XG" # * [Analytics - bdbest@gmail.com](https://analytics.google.com/analytics/web/?authuser=1#/p413466008/reports/intelligenthome)
+  favicon: images/logo_BOEM.png
+  twitter-card:
+    creator: "@ben_d_best"
+    site: "@BOEM"
+  open-graph:
+    site-name: "MarineSensitivities.org"
+  site-url: https://MarineSensitivities.org
   navbar:
     left:
       - href: index.qmd
@@ -15,13 +23,15 @@ website:
       - regions.qmd
       - distributions.qmd
       - sensitivities.qmd
-
     right:
       - about.qmd
+  page-footer: "Sponsored by [Bureau of Ocean Energy Management](https://www.boem.gov/). &copy; 2023 [Ben Best, PhD](https://bbest.github.io/cv)"
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: flatly
+      dark: darkly
     css: styles.css
     toc: true
 

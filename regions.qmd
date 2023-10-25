@@ -8,10 +8,10 @@ For now this site is focused on U.S. BOEM planning areas.
 
 ```{r}
 librarian::shelf(
-  leaflet, MarineSensitivities/msens,
+  leaflet, leaflet.extras, MarineSensitivities/msens,
   quiet = T)
 # renv::dependencies() 
-library(leaflet); library(msens) # renv::install("MarineSensitivities/msens")
+library(leaflet); library(leaflet.extras); library(msens) # renv::install("MarineSensitivities/msens")
 # renv::snapshot()
 
 pal <- colorFactor("Spectral", ply_rgns_s05$rgn_key)
@@ -31,5 +31,6 @@ ms_basemap() |>
       color        = "black",
       fillOpacity  = 0.8,
       opacity      = 0.9,
-      bringToFront = T))
+      bringToFront = T)) |> 
+  addFullscreenControl()
 ```
