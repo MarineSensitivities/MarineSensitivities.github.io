@@ -7,8 +7,8 @@ execute:
   message: false
 
 website:
-  title: "MarineSensitivities.org"
-  repo-url: https://github.com/MarineSensitivities/MarineSensitivities.github.io
+  title: "MarineSensitivity.org"
+  repo-url: https://github.com/MarineSensitivity/MarineSensitivity.github.io
   repo-actions: [edit, issue]
   google-analytics: "G-9HW6L751XG" # * [Analytics - bdbest@gmail.com](https://analytics.google.com/analytics/web/?authuser=1#/p413466008/reports/intelligenthome)
   favicon: images/logo_BOEM.png
@@ -17,8 +17,8 @@ website:
     creator: "@ben_d_best"
     site: "@BOEM"
   open-graph:
-    site-name: "MarineSensitivities.org"
-  site-url: https://MarineSensitivities.org
+    site-name: "MarineSensitivity.org"
+  site-url: https://MarineSensitivity.org
   navbar:
     left:
       - href: index.qmd

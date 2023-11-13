@@ -1,2 +1,2 @@
-# MarineSensitivities.github.io
+# MarineSensitivity.github.io
 default website
